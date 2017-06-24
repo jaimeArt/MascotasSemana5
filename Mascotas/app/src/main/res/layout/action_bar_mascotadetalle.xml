@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionBarMascota"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ibGarra"
+            android:src="@mipmap/icons8_huella_de_oso_48"
+            android:onClick="irMascota"
+            />
+        <TextView
+            android:id="@+id/tvPentagram"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pentagram"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+    </android.support.v7.widget.Toolbar>

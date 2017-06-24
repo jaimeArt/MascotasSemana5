@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="menuAbout">About</string>
+    <string name="menuContacto">Contacto</string>
+    <string name="tvEmpresa">Jave Soft.</string>
+    <string name="tvVersion">copyright, ver 1.0.0</string>
+    <string name="tvYear">2017</string>
+    <string name="tvNombreContacto">Nombre</string>
+    <string name="tvCorreoContacto">Correo</string>
+    <string name="tvMensajeContacto">Mensaje</string>
+    <string name="btnAceptarContacto">Enviar Correo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

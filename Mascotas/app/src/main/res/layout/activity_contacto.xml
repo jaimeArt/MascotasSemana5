@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaimearturo.mascotas.ContactoActivity">
+
+    <include android:id="@+id/miActionBar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        layout="@layout/action_bar_mascota"
+>
+    </include>
+    <RelativeLayout
+        android:id="@+id/rlContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:gravity="start"
+        android:paddingTop="80dp"
+>
+    <TextView
+        android:id="@+id/tvNombreContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNombreContacto"
+        android:layout_alignParentBottom="false"
+        android:textStyle="bold"
+        android:textSize="@dimen/sizeLetra"
+        android:paddingTop="@dimen/paddingTopContacto"
+        />
+    <EditText
+        android:id="@+id/etNombreContacto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sizeCampoTexto"
+        android:layout_below="@id/tvNombreContacto"
+        android:inputType="text"
+        />
+    <TextView
+        android:id="@+id/tvCorreoContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCorreoContacto"
+        android:layout_below="@id/etNombreContacto"
+        android:textStyle="bold"
+        android:textSize="@dimen/sizeLetra"
+        android:paddingTop="@dimen/paddingTopContacto"
+
+        />
+        <EditText
+            android:id="@+id/etCorreoContacto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizeCampoTexto"
+            android:layout_below="@id/tvCorreoContacto"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+        android:id="@+id/tvMensajeContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMensajeContacto"
+        android:layout_below="@id/etCorreoContacto"
+        android:textStyle="bold"
+        android:textSize="@dimen/sizeLetra"
+        android:paddingTop="@dimen/paddingTopContacto"
+        />
+        <EditText
+            android:id="@+id/etMensajeContacto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizeCampoTexto"
+            android:layout_below="@id/tvMensajeContacto"
+            android:inputType="textAutoCorrect"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAceptarContacto"
+            android:layout_below="@id/etMensajeContacto"
+            android:textStyle="bold"
+            android:textSize="@dimen/sizeLetra"
+            android:layout_alignParentBottom="true"
+            android:onClick="onCorreoClick"
+            />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

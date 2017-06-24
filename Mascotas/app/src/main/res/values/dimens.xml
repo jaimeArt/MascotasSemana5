@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevacion_actionBarMascota">4dp</dimen>
+    <dimen name="corner_radius_mascotas">4dp</dimen>
+    <dimen name="sizeLetra">20dp</dimen>
+    <dimen name="sizeCampoTexto">40dp</dimen>
+    <dimen name="paddingTopContacto">30dp</dimen>
+    <dimen name="paddingEditTopContacto">40dp</dimen>
+</resources>
